@@ -1,8 +1,9 @@
 {
   "name": "canvas-lms",
-  "dockerComposeFile": [],
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu-20.04",
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y curl git",
   "service": "web",
-  "workspaceFolder": "/usr/src/app",
+  "workspaceFolder": "/usr/workspaces/canvas-lms",
   "customizations": {
     "vscode": {
       "extensions": [
