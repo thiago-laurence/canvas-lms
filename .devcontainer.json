@@ -2,7 +2,10 @@
   "name": "canvas-lms",
   "dockerComposeFile": "./docker-compose.yml",
   "service": "web",
-  "workspaceFolder": "/usr/workspaces/canvas-lms",
+  "workspaceFolder": "/workspaces/canvas-lms",
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+  },
   "customizations": {
     "vscode": {
       "extensions": [
