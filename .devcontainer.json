@@ -1,7 +1,6 @@
 {
   "name": "canvas-lms",
-  "image": "mcr.microsoft.com/devcontainers/base:ubuntu-20.04",
-  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y curl git",
+  "dockerComposeFile": "./docker-compose.yml",
   "service": "web",
   "workspaceFolder": "/usr/workspaces/canvas-lms",
   "customizations": {
